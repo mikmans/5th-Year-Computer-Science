@@ -1,0 +1,12 @@
+#Question 2
+#Student name: Michael Etmanski
+print ("Welcome to Temperature Alert System")
+### User is being asked to input a variable.
+temp = int(input("Enter the temperature balue in degrees Celsius: "))
+### Conditional statements based off of user input.
+if temp < 20:
+    print("Too cold. Turn up heating")
+elif temp == 20 or temp <= 24:
+    print ("Temperature is just right")
+elif temp > 24:
+    print ("Too warm. Turn down heating.")
