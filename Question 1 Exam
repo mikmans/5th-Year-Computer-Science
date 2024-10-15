@@ -1,0 +1,26 @@
+#Question 1
+#Student Name:Michael Etmanski
+
+### (II)Line 4 is asking for a variable, the variable is then being printed.
+name = input("Please enter your name: ")
+
+###(III) line 6 is printing the name variable along with a string.
+print("Hello,",name,",Welcome to the addition and subtraction calculator")
+
+###(IV)num1 and num2 have been changed to input based variables. 
+num1 = int(input("Please enter a number: "))
+num2 = int(input("Please enter another number: "))
+
+###(I)Line 12 is printing a variable
+print("This calculator can only add and subtract")
+print("Do you want me to (a)dd or (s)ubtract? ")
+choice = input()
+
+###(V)Programme below is being modified to print question along with answer
+###(VI)Programme modified to allow for capitalisation, and to print invalid answer if choice isnt supported.
+if choice == "a" or choice == "A":
+    print(num1,"+",num2 ,"=",num1 + num2 )
+elif choice == "s" or choice == "S":
+    print(num1,"-",num2 ,"=",num1 - num2)
+else:
+    print("Invalid Answer")
