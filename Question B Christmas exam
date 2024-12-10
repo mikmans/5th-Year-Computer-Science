@@ -1,0 +1,8 @@
+# Question 16(b)
+# Name: Michael Etmanski
+
+print("Welcome to the split bill calculator.")##Printing an introduction line
+bill = int(input("How much is the bill?: "))##Asking user to fill a number for "bill" variable.
+people = int(input("How many people are present?: "))##Asking user to fill a number for the "people" variable.
+finalprice = bill/people##finalprice is a variable that divides the bill by amount of people.
+print("You each owe",finalprice)##printed statement along with the calculation done.
