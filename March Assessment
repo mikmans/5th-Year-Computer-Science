@@ -1,0 +1,42 @@
+#Michael Etmanski
+#Quetion 4 March Assessment
+
+print ("**********************************") #i)
+
+print ("**Welcome to your Library Acount**")
+
+print ("**********************************")
+
+print("Option 1:            Return a book")
+
+print("Option 2:            Borrow a book")
+
+print("Option 3:            Exit")
+opt1 = "Return a book"
+opt2 = "Borrow a book"
+opt3 = "Exit"
+
+username = "accountname"
+PIN = 1579
+
+q1 = input("Please enter in your username: ")#ii)
+while q1 != username:
+    q1 = input("Please try again: ")#iii)
+
+pintotal = 1  
+q2 = int(input("Please enter in your PIN: "))#ii)
+while q2 != PIN and pintotal < 3:
+    q2 = int(input("Please try again: "))
+    pintotal = pintotal + 1
+    if pintotal == 3:
+        print ("Your account is blocked.")#iv)
+
+opt = input("Which option would you like to pick?: ")
+if opt == opt1:#v)
+     booknum = input("How many books would you like to return?: ")
+     
+     
+    
+    
+    
+    
